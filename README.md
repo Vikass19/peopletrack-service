@@ -106,7 +106,9 @@ peopletrack-service/
 ![Dashboard](four.png)
 
 ### **3️⃣ Profile Management**
-![Profile Management](screenshots/profile_management.png)
+![Profile Management](three.png)
+![](seven.png)
+![](two.png)
 
 *(Make sure to add actual screenshots in the `screenshots/` folder and update the paths here!)*
 
