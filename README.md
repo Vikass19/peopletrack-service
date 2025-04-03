@@ -109,6 +109,8 @@ peopletrack-service/
 ![Profile Management](three.png)
 ![](seven.png)
 ![](two.png)
+![](five.png)
+![](six.png)
 
 *(Make sure to add actual screenshots in the `screenshots/` folder and update the paths here!)*
 
