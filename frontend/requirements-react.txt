@@ -1,0 +1,21 @@
+frontend@0.0.0 D:\myenv\Scripts\main_dir\frontend
+├── @eslint/js@9.23.0
+├── @react-google-maps/api@2.20.6
+├── @types/react-dom@19.1.1
+├── @types/react@19.1.0
+├── @vitejs/plugin-react@4.3.4
+├── autoprefixer@10.4.21
+├── eslint-plugin-react-hooks@5.2.0
+├── eslint-plugin-react-refresh@0.4.19
+├── eslint@9.23.0
+├── globals@15.15.0
+├── leaflet@1.9.4
+├── postcss@8.5.3
+├── react-dom@19.1.0
+├── react-icons@5.5.0
+├── react-leaflet@5.0.0
+├── react-router-dom@7.4.1
+├── react@19.1.0
+├── tailwindcss@4.1.1
+└── vite@6.2.4
+
