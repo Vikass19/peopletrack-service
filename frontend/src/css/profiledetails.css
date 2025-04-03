@@ -1,0 +1,168 @@
+/* Profile Details Container */
+.profile-details-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    position: relative;
+}
+
+/* Profile Image */
+.profile-details-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid #007bff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-details-image:hover {
+    transform: scale(1.05);
+}
+
+/* Profile Heading */
+h1 {
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Profile Information */
+.profile-info {
+    font-size: 1rem;
+    color: #444;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.profile-info strong {
+    color: #222;
+    font-weight: 600;
+}
+
+/* Icons Styling */
+.info-icon {
+    margin-right: 8px;
+    color: #007bff;
+}
+
+/* View on Map Button */
+.view-map-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 12px;
+    margin: 20px auto 0;
+    background: linear-gradient(135deg, #0f0f0f, #5d93e1, #7bb8ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+.view-map-btn .arrow-icon {
+    margin-left: 8px;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.view-map-btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.view-map-btn:hover .arrow-icon {
+    transform: translateX(5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-details-container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .profile-details-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .view-map-btn {
+        width: 80%;
+    }
+}
+/* Circular Go Back Button */
+.go-back-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: linear-gradient(135deg, #5a85d6, #1e1e1e);
+    color: white;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.go-back-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #1e1e1e, #5a85d6);
+}
+
+/* Back Arrow Icon */
+.back-icon {
+    font-size: 1.5rem;
+}
+/* 🌀 Spinner Container */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ✨ Animated Spinner */
+.loading-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    border-top: 6px solid #007AFF;
+    border-left: 6px solid #5d93e1;
+    border-right: 6px solid #7bb8ff;
+    animation: spin 1s linear infinite, glow 1.5s ease-in-out infinite alternate;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 10px 30px rgba(0, 122, 255, 0.2);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes glow {
+    0% { box-shadow: 0px 0px 10px rgba(0, 122, 255, 0.3); }
+    100% { box-shadow: 0px 0px 20px rgba(0, 122, 255, 0.6); }
+}

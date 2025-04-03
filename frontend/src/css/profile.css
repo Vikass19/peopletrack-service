@@ -1,0 +1,135 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* 🔍 Filter Container (Navbar Style) */
+.filter-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 15px 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filter-container:hover {
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Search Heading (Hidden on Small Screens) */
+.filter-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: center;
+    display: none;
+}
+
+/* 🔎 Search Input */
+.filter-input {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    padding: 12px 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #f8f9fa;
+    transition: 0.3s;
+}
+
+.filter-input:focus {
+    outline: none;
+    border-color: #007AFF;
+    box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+    background: white;
+}
+
+.filter-input::placeholder {
+    color: #94a3b8;
+    font-style: italic;
+}
+
+/* 📍 Location Dropdown */
+.filter-dropdown {
+    min-width: 200px;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-dropdown:focus {
+    border-color: #007AFF;
+    box-shadow: 0 0 0 3px rgba(0, 122, 255, 0.2);
+    background: white;
+}
+
+/* 🎯 Filter Button */
+.filter-btn {
+    padding: 12px 16px;
+    background: linear-gradient(135deg, #0f0f0f, #5d93e1, #7bb8ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.filter-btn:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.filter-btn:active {
+    transform: scale(1);
+}
+
+/* 🔄 Reset Button */
+.reset-btn {
+    padding: 12px;
+    background: linear-gradient(135deg, #ff4747, #ff6b6b);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.reset-btn:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+}
