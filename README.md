@@ -100,10 +100,10 @@ peopletrack-service/
 ---
 ## 📸 Screenshots
 ### **1️⃣ Login Page**
-![Login Page](screenshots/login.png)
+![Login Page](one.png)
 
 ### **2️⃣ Dashboard**
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](four.png)
 
 ### **3️⃣ Profile Management**
 ![Profile Management](screenshots/profile_management.png)
