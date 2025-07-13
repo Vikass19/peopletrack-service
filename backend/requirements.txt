@@ -1,3 +1,6 @@
+dj-database-url
+psycopg2-binary
+
 anyascii==0.3.2
 asgiref==3.8.1
 beautifulsoup4==4.13.3
