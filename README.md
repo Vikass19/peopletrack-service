@@ -3,6 +3,9 @@
 ## 📌 About the Project
 PeopleTrack Service is a web application built with **Django (Backend)** and **React.js (Frontend)**. This project enables users to manage geographical profiles efficiently, visualize data on maps, and provide CRUD functionalities.
 
+## Live Site
+https://peopletrack-service.vercel.app/
+
 ## 🛠 Tech Stack
 ### **Backend (Django)**
 - Django REST Framework
