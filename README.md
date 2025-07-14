@@ -1,6 +1,6 @@
 # PeopleTrack Service
 
-## 📌 About the Project
+##  About the Project
 PeopleTrack Service is a web application built with **Django (Backend)** and **React.js (Frontend)**. This project enables users to manage geographical profiles efficiently, visualize data on maps, and provide CRUD functionalities.
 
 ## Live Site
@@ -20,14 +20,14 @@ https://peopletrack-service.vercel.app/
 - React Leaflet (for Maps)
 - Google Maps API Integration
 
-## 🚀 Features
+##  Features
 - User authentication & profile management
 - CRUD operations for geographical profiles
 - Map-based visualization using **Leaflet.js** and **Google Maps API**
 - Responsive and interactive UI
 
 ---
-## 📂 Project Structure
+##  Project Structure
 ```
 peopletrack-service/
 │── backend/                 # Django Backend
@@ -51,7 +51,7 @@ peopletrack-service/
 ```
 
 ---
-## 🔧 Installation & Setup
+##  Installation & Setup
 
 ### **Backend (Django) Setup**
 1. **Clone the repository:**
@@ -102,13 +102,13 @@ peopletrack-service/
 
 ---
 ## 📸 Screenshots
-### **1️⃣ Login Page**
+### **1️ Login Page**
 ![Login Page](one.png)
 
-### **2️⃣ Dashboard**
+### **2️ Dashboard**
 ![Dashboard](four.png)
 
-### **3️⃣ Profile Management**
+### **3️ Profile Management**
 ![Profile Management](three.png)
 ![](seven.png)
 ![](two.png)
@@ -118,7 +118,7 @@ peopletrack-service/
 *(Make sure to add actual screenshots in the `screenshots/` folder and update the paths here!)*
 
 ---
-## 📜 API Endpoints (Django)
+##  API Endpoints (Django)
 | Method  | Endpoint                 | Description                 |
 |---------|--------------------------|-----------------------------|
 | GET     | `/api/profiles/`          | Fetch all user profiles    |
@@ -128,14 +128,14 @@ peopletrack-service/
 | DELETE  | `/api/profiles/:id/`      | Delete a profile           |
 
 ---
-## 👨‍💻 Contributing
+##  Contributing
 - Fork the repository
 - Create a new branch (`git checkout -b feature-branch`)
 - Make your changes and commit (`git commit -m "Added new feature"`)
 - Push to your branch (`git push origin feature-branch`)
 - Open a Pull Request!
 
----
+
 
 
 ---
