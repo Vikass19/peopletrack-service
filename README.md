@@ -6,7 +6,7 @@ PeopleTrack Service is a web application built with **Django (Backend)** and **R
 ## Live Site
 https://peopletrack-service.vercel.app/
 
-## 🛠 Tech Stack
+##  Tech Stack
 ### **Backend (Django)**
 - Django REST Framework
 - SQLite
